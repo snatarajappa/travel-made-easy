@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  background-color:white;
+}
+
+.App-title {
+  font-size: calc(10px + 2vmin);
+  width:100%;
+	height:60px;
+  background-color:white;
+  color:#34e0a1;
+	font-size:25px;
+	font-family:verdana;
+	margin-top:0px;
+	float:left;
+	margin:0px;
+	line-height:50px;
+	padding-left:9px;
+}
+
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+}
+
+.searchbar-container{
+  align-self: center;
+}
