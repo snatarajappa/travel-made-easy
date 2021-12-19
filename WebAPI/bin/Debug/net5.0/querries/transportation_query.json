@@ -1,0 +1,43 @@
+{
+  "from": 0,
+  "size": 5,
+  "query": {
+    "bool": {
+      "must": [
+        {
+
+          "match_phrase": {
+            "place_name": {
+              "query": "Cottonwood"
+            }
+          }
+
+        },
+        {
+          "bool": {
+            "should": [
+              {
+
+                "match_phrase": {
+                  "comment": {
+                    "query": "reach"
+                  }
+                }
+
+              },
+              {
+
+                "match_phrase": {
+                  "comment": {
+                    "query": "transportation"
+                  }
+                }
+
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

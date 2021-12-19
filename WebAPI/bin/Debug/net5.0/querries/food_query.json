@@ -1,0 +1,43 @@
+{
+  "from": 0,
+  "size": 5,
+  "query": {
+    "bool": {
+      "must": [
+        {
+
+          "match_phrase": {
+            "place_name": {
+              "query": " "
+            }
+          }
+
+        },
+        {
+          "bool": {
+            "should": [
+              {
+
+                "match_phrase": {
+                  "comment": {
+                    "query": "dinner"
+                  }
+                }
+
+              },
+              {
+
+                "match_phrase": {
+                  "comment": {
+                    "query": "lunch"
+                  }
+                }
+
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
