@@ -23,3 +23,10 @@ Now, you are good to start the react application. Use below commands to run the 
 
 ($env:REACT_APP_SERVER_URL = "http://localhost:64269/Search?placeName=") -and (npm start)
 
+You can search the webpage with place name "Big Cottonwood Canyon" as documents related to that web page are indexed already.
+
+Web application snapshot:
+
+![image](https://user-images.githubusercontent.com/80569940/146696489-167e16e9-d968-4513-a70e-b78f9c1d12c8.png)
+
+
