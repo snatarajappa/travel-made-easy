@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
 import Tab from 'react-bootstrap/Tab';
 import './Result.css';
-import Search from './search';
+import Search from './Search';
 import logo from './travel-made-easy.svg';
 import Container from 'react-bootstrap/Container';
 import ReviewPane from './ReviewPane';
