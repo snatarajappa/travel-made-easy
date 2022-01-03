@@ -23,7 +23,10 @@ const Result = (prop) => {
     useEffect(() => {
         fetch(SERVER_URL + searchParams.get('place_name'))
             .then(response => response.json())
-            .then(setData);
+            .then(setData)
+            .catch(() => {
+                alert('Failed to fetch. Please get back after sometime.');
+              });
         // fetch(SERVER_URL + searchParams.get('place_name') + "&start_time=" + new Date(searchParams.get('from')).getTime() + "&end_time=" + new Date(searchParams.get('to')).getTime())
         //     .then(response => response.json())
         //     .then(setData);
