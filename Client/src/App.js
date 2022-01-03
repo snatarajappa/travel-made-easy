@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import logo from './travel-made-easy.svg';
+import logo from './assets/travel-made-easy.svg';
 import './App.css';
-import Search from './Search';
+import Search from './components/Search/Search';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
